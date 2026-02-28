@@ -6,3 +6,4 @@ matplotlib
 ipykernel
 seaborn
 shap
+category_encoders>=2.0
