@@ -21,7 +21,7 @@ def load_data():
 
 @st.cache_resource 
 def load_model():
-    return joblib.load("models/final_model.pkl")
+    return joblib.load("./models/final_model.pkl")
 
 df = load_data()
 model = load_model()

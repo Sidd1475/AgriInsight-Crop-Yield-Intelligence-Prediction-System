@@ -1,7 +1,7 @@
 import joblib 
 import pandas as pd 
 
-model = joblib.load("models/final_model.pkl")
+model = joblib.load("../models/final_model.pkl")
 
 
 def predict_yield(input_data: dict):
