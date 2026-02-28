@@ -55,7 +55,7 @@ def train_model(data_path):
         ('preprocessor',preprocessor),
         ('regressor',RandomForestRegressor(
         n_estimators=150,
-        max_depth=20,
+        max_depth=12,
         min_samples_split=2,
         min_samples_leaf=1,
         random_state=42

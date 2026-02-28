@@ -13,8 +13,6 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-models/*.pkl
-*.pkl
 
 # Streamlit
 .streamlit/
