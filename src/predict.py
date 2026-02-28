@@ -1,7 +1,11 @@
 import joblib 
 import pandas as pd 
+from pathlib import Path
 
-model = joblib.load("../models/final_model.pkl")
+model_path = Path(__file__).parent.parent/"models"/"final_model.pkl"
+model = joblib.load(model_path)
+
+
 
 
 def predict_yield(input_data: dict):
